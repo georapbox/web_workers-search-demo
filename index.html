@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search demo using Web Workers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="page-title">Search demo using Web Workers</h1>
+
+    <form class="search-form" autocomplete="off">
+        <input id="search_input" class="search-form-input" type="text" placeholder="Search..." autofocus>
+        <button id="clear_button" class="search-form-clear-button" type="button">&times;</button>
+    </form>
+
+    <p>Search results (<span id=search_count>0</span>)</p>
+
+    <ul id="search_results" class="search-results"></ul>
+
+    <script src="users.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
